@@ -49,6 +49,10 @@ _Substitua `ExerciseName` pelo nome real da classe (por exemplo, `PrintName`, `R
 java SumArguments 10 20 30.5 abc
 ```
 
+Ou, se estiver utilizando o IntelliJ, pode executar com argumento seguindo os passos abaixo:
+
+![Executar com Argumentos no IntelliJ](./../img/executar_com_argumentos_007.png)
+
 ## 🛠 Requisitos
 
 * Java 8 ou superior
