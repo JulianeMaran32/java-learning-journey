@@ -1,46 +1,53 @@
 # Java Basic Exercises
 
-Uma coleção de programas simples de console Java para praticar e demonstrar conceitos básicos de programação. Cada
-exercício é implementado em um arquivo separado para maior clareza e fins educacionais.
+Uma coleção de programas simples em Java para praticar e demonstrar conceitos fundamentais de programação.  
+Cada exercício está implementado em um arquivo separado para fins educacionais e melhor organização.
 
 ## 📚 Exercícios Incluídos
 
-1. **Minimal Java Program**
-    * Estrutura mínima de um programa em Java.
-    * Todo programa Java precisa de uma classe pública e de um método `main`, ponto de entrada da aplicação.
+1. **Minimal Java Program**  
+   Estrutura mínima de um programa Java.  
+   Todo programa precisa de uma classe pública com um método `main`, que é o ponto de entrada da aplicação.
 
-2. **Print my Name**
-    * Imprime um nome codificado no console.
+2. **Print My Name**  
+   Imprime um nome codificado diretamente no console.
 
-3. **Read Integer and Double**
-    * Lê um valor inteiro e um valor real (double) da entrada do usuário e os imprime.
+3. **Read Integer and Double**  
+   Lê um valor inteiro e um valor real (double) digitado pelo usuário e os exibe no console.
 
-4. **Count to N**
-    * Lê um inteiro `N` e imprime uma contagem de `0` a `N`.
+4. **Count to N**  
+   Lê um número inteiro `N` e imprime uma contagem de `0` até `N`, inclusive.
 
-5. **Check even or odd**
-    * Lê um inteiro e determina se ele é par ou ímpar.
+5. **Check Even or Odd**  
+   Lê um número inteiro e determina se ele é par ou ímpar.
 
-6. **Rectangle Area and Perimeter**
-    * O programa calcula e exibe os valores do perímetro e da área de um terreno.
+6. **Rectangle Area and Perimeter**  
+   Lê a largura e o comprimento de um terreno retangular e calcula sua área e perímetro.
 
-7. **Sum Arguments**
-    * O programa apresenta a soma de todos os argumentos inteiros ou reais recebidos.
-    * Os argumentos inválidos são desconsiderados sem provocar a exibição de erros ou exceções.
+7. **Sum Arguments**  
+   Soma todos os argumentos válidos (inteiros ou reais) passados pela linha de comando.  
+   Argumentos inválidos são ignorados sem exibir erros ou exceções.
 
-8. **Calculate Investment Months**
-    * O programa realiza o cálculo de meses para atingir montante com juros.
+8. **Calculate Investment Months**  
+   Calcula quantos meses são necessários para atingir um montante desejado, considerando depósitos mensais fixos e juros
+   mensais de 0,5%.
 
-## 💻 Como executar
+## 💻 Como Executar
 
-Cada exercício tem seu próprio arquivo `.java`. Para executar um exercício:
+Cada exercício possui seu próprio arquivo `.java`. Para compilar e executar um exercício:
 
-```shell
-javac ExerciseName.java
-java ExerciseName
+```bash
+javac NomeDaClasse.java
+java NomeDaClasse
 ```
 
 _Substitua `ExerciseName` pelo nome real da classe (por exemplo, `PrintName`, `ReadValues`, etc.)._
+
+## Executando com argumentos (quando necessário):
+
+```shell
+java SumArguments 10 20 30.5 abc
+```
 
 ## 🛠 Requisitos
 
@@ -49,4 +56,13 @@ _Substitua `ExerciseName` pelo nome real da classe (por exemplo, `PrintName`, `R
 
 ## 🚀 Propósito
 
-Este projeto tem como objetivo aprender e praticar a sintaxe básica do Java, I/O do consoe e estrutura do programa.
+Este projeto tem como objetivo auxiliar na aprendizagem prática da linguagem Java, focando em:
+
+- Sintaxe básica da linguagem
+- Operações com entrada e saída (I/O) via console
+- Estrutura de programas Java
+- Lógica de programação e tratamento de erros
+
+## Contribuições
+
+Contribuições são bem-vindas. Bons estudos!
